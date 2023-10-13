@@ -4,7 +4,7 @@
     font-family: sans-serif;
 }
 body{
-    background:linear-gradient(#111,#222);
+    background:linear-gradient(#111,#d3ebe2);
 height: 100vh;
 width: 100%;
 display: flex;
@@ -24,7 +24,7 @@ body::after{
 .container{
     width: 80%;
     height: 80%;
-    background: rgba(255,255,255,0.1);
+    background: rgba(255, 255, 255, 0.1);
     border-radius: 20px;
     overflow: hidden;
 }
@@ -37,7 +37,7 @@ margin: auto;
 padding: 20px 0;
 }
 nav .logo{
-color: #fff;
+color: #d5ffed;
 text-decoration: none;
 font-size:32px;
 text-transform: uppercase;
@@ -49,13 +49,13 @@ nav ul li{
    margin: 0 6px; 
 }
 nav ul li a{
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
     font-size: 18px;
     font-weight: 500;
 }
 nav ul li a:hover{
-    color: #026b20;
+    color: #08922f;
 }
 .contant{
 display: flex;
@@ -77,7 +77,7 @@ margin: auto;
     letter-spacing: 2px;    
 }
 .contant .text p{
-
+    color: #026b20;
     font-size: 18px;
     line-height: 25px;
     margin: 10px 0;
